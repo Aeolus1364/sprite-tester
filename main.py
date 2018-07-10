@@ -36,7 +36,7 @@ class Main:
 
                 if event.type == pygame.VIDEORESIZE:
                     print(event.size)
-                    # self.surface = pygame.display.set_mode(event.size, pygame.RESIZABLE)
+                    self.surface = pygame.display.set_mode(event.size, pygame.RESIZABLE)
 
             self.sprite.update()
             self.surface.fill((255, 255, 255))
