@@ -17,7 +17,7 @@ class Main:
         self.surface = pygame.display.set_mode((400, 430), pygame.RESIZABLE)
         self.running = True
 
-        self.test = spritesheet.load("spritesheetflat.png", (16, 16))
+        self.test = spritesheet.load("cube.png", (34, 36))
         self.sprite = sprite.Sprite(self.test)
 
         self.backdrop = menu.BackDrop()
